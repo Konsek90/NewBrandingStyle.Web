@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\WebApplication.Web\\WebApplication.Web\\NewBrandingStyle.Web.csproj": {}
+    "C:\\Users\\user\\source\\repos\\NewBrandingStyle.Web\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\WebApplication.Web\\WebApplication.Web\\NewBrandingStyle.Web.csproj": {
+    "C:\\Users\\user\\source\\repos\\NewBrandingStyle.Web\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\WebApplication.Web\\WebApplication.Web\\NewBrandingStyle.Web.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\NewBrandingStyle.Web\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj",
         "projectName": "NewBrandingStyle.Web",
-        "projectPath": "C:\\Users\\user\\source\\repos\\WebApplication.Web\\WebApplication.Web\\NewBrandingStyle.Web.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\NewBrandingStyle.Web\\NewBrandingStyle.Web\\NewBrandingStyle.Web.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\WebApplication.Web\\WebApplication.Web\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\NewBrandingStyle.Web\\NewBrandingStyle.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,30 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
